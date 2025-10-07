@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Bird</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body style="background-color: #f9f8f8;">
+    <div class="streak" id="streakCounter" aria-live="polite">Streak: 0</div>
+
+    <main class="layout center">
+      <div class="top-caption" id="birdCaption">Birdie is happy</div>
+      <div class="countdown" id="countdown" aria-live="polite">
+        <!-- Flip clock will be injected here -->
+      </div>
+      <button class="primary" id="promptBtn">Get Prompt</button>
+    </main>
+
+    <!-- Journal Overlay -->
+    <div class="overlay hidden" id="journalOverlay" role="dialog" aria-modal="true" aria-labelledby="journalTitle">
+      <div class="overlay-card">
+        <h2 id="journalTitle">Daily Journal</h2>
+        <p id="journalPrompt" class="prompt">Loading prompt…</p>
+        <textarea id="journalInput" class="journal-input" rows="6" placeholder="Write a few thoughts here… (optional)"></textarea>
+        <div class="overlay-actions">
+          <button class="ghost" id="anotherPromptBtn">New Prompt</button>
+          <button class="success" id="doneBtn">Done for the day!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Bird (random position) -->
+    <div id="birdFloat" class="bird-float" aria-hidden="false">
+        <img src="bird.png" alt="Bird" class="bird" style="width: 220px; height: auto;" background-color: #ffffff;>
+    </div>
+
+    
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
+
+
