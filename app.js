@@ -84,22 +84,89 @@
     // Prompts
     // -----------------------------
     const PROMPTS = [
-      'What made you smile today?',
-      'Describe a small win you had today.',
-      'What challenged you today, and how did you react?',
-      'Name three things you are grateful for right now.',
-      'What is one lesson you learned today?',
-      'How did you take care of yourself today?',
-      'What’s something you’re looking forward to tomorrow?',
-      'Write about a kind act you noticed or did.',
-      'What would have made today 1% better?',
-      'Describe a moment of calm you experienced today.',
-      'What is a thought you want to let go of?',
-      'Who helped you today and how?',
-      'If today had a headline, what would it be?',
-      'What is one thing you created today?',
-      'What surprised you today?'
+        // Noticing tiny wins
+        `Finish the sentence: “Today, I felt useful when I ___.”`,
+        `Name one tiny thing I handled that would have annoyed past-me.`,
+        `What took me 5 minutes today that would take someone else longer?`,
+        `I prevented a problem (even a small one) by ___`,
+        `A moment I made something smoother for someone was ___`,
+        `Something I figured out without a tutorial was ___`,
+      
+        // What others see in me
+        `What do people casually thank me for most often? (texts, DMs, quick “ty!”)`,
+        `If a friend shadowed me for a day, they’d notice I often ___`,
+        `The last time someone asked me for help, it was about ___ — why me?`,
+        `Recall a compliment I brushed off. Write it down and accept it for 60 seconds.`,
+        `Who tends to relax when I show up? What am I doing that creates that effect?`,
+      
+        // Energy + ease mapping
+        `Which tasks give me a small “ah, that was nice” feeling? List three.`,
+        `What feels easy for me but helpful to others? (make a quick list)`,
+        `When I’m low energy, I can still do ___ pretty well.`,
+        `One chore/work task I do “my way” that seems to work: describe my way in 3 steps.`,
+        `Which part of my day goes by fastest because I’m into it? Why?`,
+      
+        // Everyday strengths (no fancy titles)
+        `I’m reliable at ___ (something simple like showing up on time, naming blockers).`,
+        `I’m patient with ___ (people? tools? waiting?)`,
+        `I notice small details like ___ that others miss.`,
+        `I create calm by ___`,
+        `I reduce confusion by ___`,
+        `I make decisions easier by ___`,
+      
+        // Story seeds (small stories, big clues)
+        `Tell a 3-sentence story about a time I fixed something tiny but annoying.`,
+        `Tell a 3-sentence story about a time I explained something and it finally clicked.`,
+        `Tell a 3-sentence story about a time I connected two people/tools and it helped.`,
+        `Tell a 3-sentence story about a time I made a plan that others followed.`,
+      
+        // Translate everyday life to “skills”
+        `Pick a home task I’m good at (cooking, routes, bills). What skills does it prove?`,
+        `Pick a game/hobby I enjoy. What does it show about my focus, strategy, or grit?`,
+        `Pick a time I handled a delay/cancellation. What does that show about my flexibility?`,
+        `Pick a time I asked a good question. What made it good?`,
+      
+        // Gentle identity building
+        `Three words I like for myself at work/school/home are ___, ___, and ___`,
+        `I want people to feel ___ after interacting with me. One way I already do this is ___`,
+        `A boundary that protects my energy is ___. One sentence I can use to keep it is ___`,
+        `A tiny habit that supports my best self (2 minutes or less) is ___`,
+      
+        // “Minimum viable courage”
+        `What’s a 2-minute action that makes tomorrow easier for future-me? Do it or plan it.`,
+        `One message I can send that would clear small confusion: draft it.`,
+        `One neat thing I learned recently: write it in one sentence I could share.`,
+        `Pick one task I can do to 70% and ship. What’s the smallest “done”?`,
+      
+        // Pattern spotting (weekly)
+        `List three micro-wins from this week. What pattern do they share?`,
+        `What did I repeat this week because it worked? Name the pattern.`,
+        `Which problem kept showing up? What’s one small guardrail I can add?`,
+        `Who did I help more than once? What do they come to me for?`,
+      
+        // Kindness & relationships (a strength too)
+        `Someone I encouraged recently — what did I say/do that landed?`,
+        `A kind thing I did when no one was watching: ___`,
+        `I can make someone’s day 1% better tomorrow by ___ (pick something tiny).`,
+      
+        // Clarity without pressure
+        `If I had to pick one thing to get slightly better at this month, it’d be ___. Why?`,
+        `If I had to teach a 5-minute tip, it would be about ___. Outline 3 bullets.`,
+        `If my role disappeared, which parts of my current day would I carry anywhere?`,
+        `If I had a small “signature move,” it would be ___ (e.g., tidy briefs, fast drafts).`,
+      
+        // Confidence bank
+        `Write a one-liner I’m proud of from today (no big deal, just honest).`,
+        `What did I say “no” to (or should have) that protected my focus?`,
+        `I tried something imperfect today: what did I learn by doing it anyway?`,
+        `One thing I used to find hard that’s now easy for me is ___.`,
+      
+        // Friendly future
+        `Tomorrow-me would be grateful if I ___ (one tiny prep).`,
+        `If a friend felt like they had no special skills, what would I notice and name for them? Now do that for me.`,
+        `In one sentence: When I’m at my best, I help people ___`
     ];
+      
   
     // -----------------------------
     // State
