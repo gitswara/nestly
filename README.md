@@ -3,7 +3,6 @@
 A tiny, single-word, daily journaling app with a moody little bird.
 Write once a day, keep your streak, beat the midnight clock.
 
-<img alt="Nestly demo" src="docs/hero.png" width="720" />
 Features
 
 One-a-day journaling overlay with bite-sized prompts
