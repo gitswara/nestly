@@ -1,7 +1,6 @@
 (function() {
     'use strict';
   
-    // -----------------------------
     // DOM elements
     // -----------------------------
     const countdownEl = document.getElementById('countdown');
@@ -12,7 +11,7 @@
     const birdImg   = birdFloat ? birdFloat.querySelector('img') : null;  // <img class="bird">
   
     const promptBtn = document.getElementById('promptBtn');
-    const doneBadge = document.getElementById('doneBadge'); // optional
+    const doneBadge = document.getElementById('doneBadge'); 
     const overlay = document.getElementById('journalOverlay');
     const journalPromptEl = document.getElementById('journalPrompt');
     const journalInput = document.getElementById('journalInput');
@@ -120,7 +119,7 @@
   
     function normalizedMidnight(dateLike) {
       const d = new Date(dateLike);
-      d.setHours(24, 0, 0, 0); // upcoming midnight
+      d.setHours(24, 0, 0, 0);
       return d.getTime();
     }
   

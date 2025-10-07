@@ -1,0 +1,11 @@
+<!-- favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nestly">
+  <!-- body -->
+  <circle cx="30" cy="34" r="18" fill="#1ea35a"></circle>
+  <!-- wing -->
+  <path d="M22 36c6 0 10 4 10 9-7 1-12-2-14-6 1-2 2-3 4-3z" fill="#0f6a3a" opacity=".9"></path>
+  <!-- beak -->
+  <polygon points="42,28 50,32 42,36" fill="#e8b208"></polygon>
+  <!-- eye -->
+  <circle cx="36" cy="30" r="2.2" fill="#0c2a18"></circle>
+</svg>
