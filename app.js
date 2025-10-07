@@ -487,7 +487,7 @@
       overlay.classList.remove('hidden');
       if (doneBtn) {
         doneBtn.disabled = false;
-        doneBtn.textContent = 'Close';
+        doneBtn.textContent = 'Submit';
       }
     }
   
